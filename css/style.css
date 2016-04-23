@@ -1,0 +1,290 @@
+/* POSITIONING, SCALE, AND COLOUR */
+
+::selection {
+  background: #FCD2D1;
+}
+
+#clearfix
+{
+	clear:both;
+}
+
+.no_margin
+{
+	margin:0;
+}
+
+
+.wrap_main
+{
+    width:1000px;
+    margin:auto;
+}
+
+section
+{
+    margin: 4em 0 4em 0;
+	clear:both;
+}
+
+.column60
+{
+	width:57%;
+	margin-right:3%;
+	float:left;
+	position:relative;
+	height:100%;
+}
+
+.column40
+{
+	width: 37%;
+	margin-right:3%;
+	float:left;
+	position:relative;
+	height:100%;
+}
+
+.column30
+{
+	width:27%;
+	margin-right:3%;
+	float:left;
+	position:relative;
+	height:100%;
+}
+
+.column70
+{
+	width:67%;
+	margin-right:3%;
+	float:left;
+	position:relative;
+	height:100%;
+}
+
+p
+{
+    margin: 2em 0 2em 0;
+}
+
+ul
+{
+    list-style-type:square;
+}
+
+.banner_main
+{
+    margin-top:3em;
+    margin-bottom: 3em;
+    
+    height:3.24em;
+}
+
+.banner_main img
+{
+    height:100%;
+    margin-right:0.5em;
+    display:inline-block;
+}
+
+.wordmark_box
+{
+    margin: 3em 0 3em 0;
+    height:5em;
+	border-top: 3px solid #F6A0A2;
+	border-bottom: 3px solid #F6A0A2;
+	position:relative;
+	width:91%;
+}
+
+.wordmark_box img
+{
+    height:100%;
+    margin-right:0.5em;
+    display:inline-block;
+}
+
+.wordmark_line
+{
+	border-top: 3px solid #F6A0A2;
+	z-index:2;
+	width:100%;
+	position:absolute;
+	bottom:45px
+}
+
+.wordmark, .wordmark_large
+{
+    display:inline-block;
+}
+
+.sub_title
+{
+    display:inline-block;
+    margin-left:1em;
+}
+
+.grid_showcase
+{
+    width:48%;
+    margin-right:2%;
+    position:relative;
+    float:left;
+}
+
+.grid_showcase p
+{
+    margin-top:0.5em;
+}
+
+.grid_img
+{
+    float:left;
+    margin-right: 1em;
+    opacity: 0.3;
+    transition: opacity 0.5s;
+}
+
+.grid_img:hover
+{
+    opacity:1;
+    transition: opacity 0.5s;
+}
+.grid_logo
+{
+    position:absolute;
+    left:0;
+    z-index: -1;
+}
+
+.pallete_wrap
+{
+	width:90px;
+	height:200px;
+	text-align: center;
+	display:inline-block;
+	margin-right:2.73em;
+}
+
+.pallete_wrap p
+{
+	margin-top:0.2em;
+}
+
+#pallete
+{
+	height:80%;
+	width: 100%;
+	margin:auto;
+}
+
+.sample_text_box
+{
+	width:50%;
+	float:left;
+	margin-top:4em;
+	text-align: center;
+}
+
+.type_style_container
+{
+	height:100px;
+}
+
+.type_style_header
+{
+	position:relative;
+	top:15px
+}
+
+/* TYPOGRAPHY */
+
+body
+{
+    font-size: 18px;
+    line-height: 1.5em;
+    font-family: "futura-pt",sans-serif;
+    color: #4F4F4F;
+}
+
+strong
+{
+    font-weight:600;
+}
+
+h1
+{
+    font-size: 3.157em;
+    font-weight: 600;
+}
+
+h2
+{
+    font-size: 2.369em;
+}
+
+h3
+{
+    font-size: 1.777em;
+}
+
+
+h4
+{
+    font-size: 1.333em;
+}
+
+p
+{
+    font-size: 1em;
+}
+
+.sub_title
+{
+    font-weight: 500;
+}
+
+.wordmark
+{
+    font-size: 4.7em;
+    font-weight: 400;
+}
+
+.wordmark_large
+{
+    font-size: 7.5em;
+    font-weight: 400;
+}
+
+.sample_futura_book
+{
+	padding:0;
+	margin:0;
+	font-size: 6em;
+}
+
+.sample_futura_heavy
+{
+	padding:0;
+	margin:0;
+	font-size: 6em;
+	font-weight:600;
+}
+
+
+/* TYPOGRAPHY -- LINKS*/
+
+a
+{
+	color:#F6A0A2;
+	font-weight:500;
+	text-decoration: none;
+	transition: color 0.25s;
+}
+
+a:hover
+{
+	color:#F26667;
+	transition: color 0.25s;
+}
